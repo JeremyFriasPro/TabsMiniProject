@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	height: 100vh;
+	padding: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(28, 30, 46);
+}
+
+.tab-section {
+	background: rgb(49, 49, 49);
+	width: 435px;
+	padding: 2em;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	color: white;
+}
+
+.groups {
+	display: flex;
+	gap: 0.5em;
+}
+
+.tab {
+	padding: 1em;
+	background: rgb(233, 233, 233);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	cursor: pointer;
+	color: rgb(49, 49, 49);
+	font-weight: bold;
+}
+
+.tab:hover {
+	background: rgb(113, 125, 226);
+	transition: 0.75s;
+}
+
+.tab-info {
+	padding: 1em 0em;
+}
+
+.tab-info > h2 {
+	color: rgb(113, 125, 226);
+}
+
+.tab-info > p {
+	margin-top: 1em;
+	font-size: 0.85rem;
+}
